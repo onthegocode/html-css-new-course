@@ -3,12 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Page Sections*/
 
 body {
   color: #444;
   font-family: sans-serif;
 }
 
+
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
 nav {
   font-size: 18px;
 }
@@ -26,13 +33,13 @@ aside {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 .post-header {
   margin-bottom: 40px;
 }
-
+/*Smaller elements*/
 h1,
 h2,
 h3 {
@@ -140,6 +147,17 @@ a:active {
   width: 100%;
   height: auto;
 }
+
+nav a:link,
+nav a:visited {
+  margin-left: 30px;
+  margin-top: 10px;
+  display: inline-block;
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+}
 /* Resolving conflicts*/
 /* 
 #copyright {
@@ -157,3 +175,7 @@ a:active {
 footer p {
   color: green;
 } */
+nav a:link:last-child,
+nav a:visited:last-child {
+  margin-right: 0;
+}
