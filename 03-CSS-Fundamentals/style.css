@@ -18,6 +18,7 @@ body {
 }
 nav {
   font-size: 18px;
+  /* text-align: center; */
 }
 article {
   margin-bottom: 60px;
@@ -163,15 +164,12 @@ nav a:visited {
 #copyright {
   color: red;
 }
-
 .copyright {
   color: blue;
 }
-
 .text {
   color: yellow;
 }
-
 footer p {
   color: green;
 } */
@@ -181,7 +179,7 @@ nav a:visited:last-child {
 }
 
 button {
-  font-size: 22px; 
+  font-size: 22px;
   padding: 20px;
   cursor: pointer;
 
